@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "648022416630",
+    "firebase_url": "https://webspider-ffe1b.firebaseio.com",
+    "project_id": "webspider-ffe1b",
+    "storage_bucket": "webspider-ffe1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648022416630:android:274f6267be2aa2b1",
+        "android_client_info": {
+          "package_name": "apextechies.etodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648022416630-qc3tunht9vv1vqr3j75v34dbrrc6922c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwfFheJfP_IRAsL7yqSFzsx2ucT614NeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

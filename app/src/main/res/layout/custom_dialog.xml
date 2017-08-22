@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="300dp"
+	android:background="@color/white">
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/margin_50"
+		android:text="Select or Type City"
+		android:gravity="center"
+		android:textSize="@dimen/margin_15"
+		android:textColor="@color/colorPrimaryDark"/>
+	<AutoCompleteTextView
+		android:id="@+id/autocompleteEditTextView"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/margin_50"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_16"
+		android:hint="@string/chooselocation"
+		android:gravity="center"
+		android:textColorHint="@color/white"
+		android:background="@color/blue"/>
+</LinearLayout>

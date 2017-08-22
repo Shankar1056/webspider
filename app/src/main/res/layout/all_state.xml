@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v4.view.ViewPager
+        android:id="@+id/imgNewsImage"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_15"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_10">
+            <ImageView
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:background="@drawable/popularcity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/aboutus_textcolor"
+            android:textSize="@dimen/text_16"
+            android:textStyle="normal"
+            android:text="@string/popularcities"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_10" />
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+        <apextechies.etodo.common.ExpandableHeightGridView
+            android:id="@+id/categoryGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:numColumns="3"
+            android:layout_marginTop="@dimen/margin_10"/>
+    </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

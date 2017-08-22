@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorAccent">#757575</color>
+    <color name="colorblue">#3F52B9</color>
+    <color name="white">#ffffff</color>
+    <color name="donthaveaccount">#808080</color>
+    <color name="forgotpassword">#999999</color>
+    <color name="textcolor_black">#6E6E6E</color>
+
+
+    <color name="menu_background">#f1f3f2</color>
+    <color name="closeopenbackground">#fff5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="red">#cd2121</color>
+    <color name="edittext_color">#9DA7B4</color>
+    <color name="toolbarbackcolor">#81A395</color>
+    <color name="fb_color">#4267B2</color>
+    <color name="lightblack">#272727</color>
+    <color name="app_back">#E2E2E2</color>
+    <color name="app_back_dark">#C1C1C1</color>
+    <color name="category_text_color">#505C66</color>
+    <color name="bg_title">#66999999</color>
+    <color name="aboutus_textcolor">#919191</color>
+    <color name="roundcorner_edittext">#FCE77F</color>
+    <color name="blue">#012772</color>
+    <color name="gray">#696969</color>
+    <color name="bottom_text_color">#9E9E9E</color>
+    <color name="light_red">#C99333</color>
+    <color name="text_color">#152558</color>
+</resources>

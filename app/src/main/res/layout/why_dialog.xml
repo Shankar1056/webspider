@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why?"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We need your phone number to Contact you when need. We will not share your details with anybody."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" cool!!"
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/okgotit"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center|right"
+        android:text="Ok, Got IT!"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+
+</LinearLayout>
