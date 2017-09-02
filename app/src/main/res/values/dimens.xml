@@ -51,4 +51,5 @@
     <dimen name="contactform_text_size">15dp</dimen>
     <dimen name="textsize_small_11">11dp</dimen>
     <dimen name="margin_14">14sp</dimen>
+	<dimen name="toolbar_elevation">4dp</dimen>
 </resources>
